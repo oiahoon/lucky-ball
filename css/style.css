@@ -3,12 +3,12 @@ body {
   height: 100%;
 }
 .bg {
-  background-image: url(../img/bg.jpg);
+  background-image: url(../img/invisalign-bg.png);
   overflow: hidden;
-  background-color: #121936;
-  background-size: 100% 100% ;
+  background-color: #009ACE;
+  /*background-size: 100% 100% ;*/
   background-position: center center;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
 }
 
 a {
@@ -35,7 +35,8 @@ a {
 }
 
 .next .title {
-  color: yellow;
+  color: #FFF;
+  font-weight: bolder;
 }
 .el-select {
   width: 120px;
@@ -57,12 +58,12 @@ a {
   text-align: center;
   font-size: 25px;
   width: 150px;
-  background: #fff;
+  background: #EFEFED;
   line-height: 30px;
-  color: #000;
+  color: #3D3935;
   margin: 5px;
-  border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 2px;
+  box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.56);
   padding: 10px 0;
 }
 
@@ -70,12 +71,12 @@ a {
   display: inline-block;
   text-align: center;
   width: 90px;
-  background: #fff;
-  line-height: 30px;
-  color: #000;
+  background: #EFEFED;
+  line-height: 36px;
+  color: #3D3935;
   margin: 5px;
-  border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 2px;
+  box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.56);
   padding: 5px 0;
 }
 
