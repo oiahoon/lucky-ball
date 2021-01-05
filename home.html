@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="年会抽奖程序" />
-    <title>年会抽奖</title>
+    <meta name="description" content="align 抽奖程序 by APAC web development team" />
+    <title>现场抽奖</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link
@@ -23,7 +23,7 @@
       <div class="next title" v-if="awards.length>0">
         <span class="title">{{ awards[currentAward].name }}({{result[currentAward].length}}/{{
           awards[currentAward].count
-        }})</span> 
+        }})</span>
         <span v-show="awards[currentAward].award"
           >, 奖品：{{ awards[currentAward].award }}</span
         >
@@ -149,7 +149,7 @@
               var index = this.getRandomInt(0, this.players.length - 1);
               batchPlayers.push(this.players.splice(index, 1)[0]);
             }
-            // 
+            //
             // if (this.players.length === 0) {
             //   this.players = this.copy(this.members);
             //   this.$alert('所有人员都已中奖，剩余奖品将在现场所有人里抽取', '提示')

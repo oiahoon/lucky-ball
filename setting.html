@@ -111,7 +111,7 @@
         <el-button size="small" type="danger" @click="onReset"
           >重置中奖结果</el-button
         >
-        <a href="./index.html">去抽奖</a>
+        <a href="./home.html">去抽奖</a>
       </div>
       <div class="members">
         <h1>参与人员列表(共{{memberSource.length}}人)</h1>
@@ -323,21 +323,21 @@
             name: '二等奖',
             award: '办公室一日游',
             count: 25,
-          }, 
+          },
           {
               name: '一等奖',
-              award: 'BMW X5',
+              award: 'iPhone12 Pro Max',
               count: 10,
             },
             {
               name: '特等奖',
-              award: '深圳湾一号',
+              award: 'macbook M1',
               count: 1,
             },
           ];
           var members =
             JSON.parse(localStorage.getItem('members')) || window.members;
-          this.batchNumber = +localStorage.getItem('batchNumber') || 20;
+          this.batchNumber = +localStorage.getItem('batchNumber') || 5;
           this.tableData = awards.map(function(item) {
             return {
               name: item.name,
