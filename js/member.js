@@ -64,6 +64,5 @@ window.members = [
   { "id": 63, "name": "Dexi Wang"},
   { "id": 64, "name": "Chelsea Chen"},
   { "id": 65, "name": "Roger Cong"},
-  { "id": 66, "name": "Jenson Wang"},
-  { "id": 67, "name": "Tao Xi"}
+  { "id": 66, "name": "Jenson Wang"}
 ]
